@@ -26,3 +26,9 @@ function divideNumbers(){
     }
     
 }
+
+function clearValues(){
+    document.getElementById('num1').innerText = "";
+    document.getElementById('num2').innerText = "";
+    document.getElementById('result').innerText = "";
+}
