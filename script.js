@@ -28,7 +28,7 @@ function divideNumbers(){
 }
 
 function clearValues(){
-    document.getElementById('num1').innerText = "";
-    document.getElementById('num2').innerText = "";
-    document.getElementById('result').innerText = "";
+    document.getElementById('num1').value = " ";
+    document.getElementById('num2').value = " ";
+    document.getElementById('result').value = " ";
 }
